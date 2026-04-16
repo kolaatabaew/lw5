@@ -1,0 +1,10 @@
+{
+    "name": "kolaatabaew/pizza-library",
+    "description": "Base Pizza Factory Library",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "PizzaLib\\": "src/"
+        }
+    }
+}
