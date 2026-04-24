@@ -1,8 +1,11 @@
 <?php
 namespace PizzaLib;
 
-abstract class PizzaStore {
-    abstract protected function createPizza(string $type): Pizza;
+class PizzaStore {
+    // Убрали abstract, добавили базовую логику
+    protected function createPizza(string $type): Pizza {
+        return new Pizza();
+    }
 
     public function orderPizza(string $type): Pizza {
         $pizza = $this->createPizza($type);
