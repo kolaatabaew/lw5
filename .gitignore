@@ -1,0 +1,19 @@
+# Composer
+/vendor/
+composer.lock
+
+# VS Code и системные файлы
+.vscode/
+*.db
+*.db-shm
+*.db-wal
+*.suo
+*.user
+*.userosscache
+*.sln
+*.sqlite
+*.idb
+*.pdb
+
+# Временные файлы PHPStan
+/phpstan-*.php
